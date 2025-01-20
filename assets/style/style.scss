@@ -466,4 +466,97 @@ $color_white: #fff;
             }
         }
     }
+
+    .section_ourFood {
+        width: 100%;
+        max-width: 1129px;
+        margin: auto;
+        margin-top: 132px;
+
+        h1 {
+            font-family: $font_Tinos;
+            font-size: 54px;
+            line-height: 62.09px;
+            font-weight: 400;
+            color: $color_black;
+            text-align: center;
+
+            span {
+                color: $color_orange800;
+            }
+        }
+
+        .section_ourFood_row {
+            margin-top: 139px;
+            display: flex;
+            gap: 30px;
+
+            .section_ourFood_row_col {
+                width: 100%;
+
+                &:first-of-type {
+                    max-width: 445px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                &:last-of-type {
+                    max-width: 654px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 29px;
+
+                    .section_ourFood_row_col_item {
+                        display: flex;
+                        gap: 30px;
+                        align-items: center;
+
+                        .section_ourFood_row_col_item_img {
+                            width: 100%;
+                            max-width: 160px;
+                            height: 140px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        .section_ourFood_row_col_item_text {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            h4 {
+                                font-family: $font_Tinos;
+                                font-size: 26px;
+                                line-height: 29.09px;
+                                font-weight: 400;
+                                color: $color_black;
+                            }
+
+                            h5 {
+                                font-family: $font_Tinos;
+                                font-size: 26px;
+                                line-height: 29.09px;
+                                font-weight: 400;
+                                color: $color_black;
+                            }
+
+                            span {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 100%;
+                                max-width: 204px;
+                                border: dashed 1px $color_black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -399,4 +399,82 @@
 .container .section_4 .section_4_inlineBox button:hover {
   background-color: transparent;
   color: #FF7400;
+}
+.container .section_ourFood {
+  width: 100%;
+  max-width: 1129px;
+  margin: auto;
+  margin-top: 132px;
+}
+.container .section_ourFood h1 {
+  font-family: "Tinos";
+  font-size: 54px;
+  line-height: 62.09px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+.container .section_ourFood h1 span {
+  color: #D67E34;
+}
+.container .section_ourFood .section_ourFood_row {
+  margin-top: 139px;
+  display: flex;
+  gap: 30px;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col {
+  width: 100%;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:first-of-type {
+  max-width: 445px;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:first-of-type img {
+  width: 100%;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:last-of-type {
+  max-width: 654px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:last-of-type .section_ourFood_row_col_item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:last-of-type .section_ourFood_row_col_item .section_ourFood_row_col_item_img {
+  width: 100%;
+  max-width: 160px;
+  height: 140px;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:last-of-type .section_ourFood_row_col_item .section_ourFood_row_col_item_img img {
+  width: 100%;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:last-of-type .section_ourFood_row_col_item .section_ourFood_row_col_item_text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:last-of-type .section_ourFood_row_col_item .section_ourFood_row_col_item_text h4 {
+  font-family: "Tinos";
+  font-size: 26px;
+  line-height: 29.09px;
+  font-weight: 400;
+  color: #000;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:last-of-type .section_ourFood_row_col_item .section_ourFood_row_col_item_text h5 {
+  font-family: "Tinos";
+  font-size: 26px;
+  line-height: 29.09px;
+  font-weight: 400;
+  color: #000;
+}
+.container .section_ourFood .section_ourFood_row .section_ourFood_row_col:last-of-type .section_ourFood_row_col_item .section_ourFood_row_col_item_text span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 204px;
+  border: dashed 1px #000;
 }/*# sourceMappingURL=style.css.map */
