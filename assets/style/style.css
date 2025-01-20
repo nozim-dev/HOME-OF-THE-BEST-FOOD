@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -477,4 +478,117 @@
   width: 100%;
   max-width: 204px;
   border: dashed 1px #000;
+}
+.container .section_ourMenu {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 100px 0 126px 0;
+  background: url("../image/bar.png") no-repeat;
+  margin-top: 152px;
+}
+.container .section_ourMenu h1 {
+  font-family: "Tinos";
+  font-size: 54px;
+  line-height: 62.09px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+.container .section_ourMenu .section_ourMenu_row {
+  margin: auto;
+  margin-top: 138px;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  max-width: 1110px;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col {
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  background-color: #fff;
+  padding: 80px 60px 29px 62px;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 124px;
+  background-color: #D67E34;
+  color: #000;
+  padding: 7px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 13px;
+  line-height: 17.7px;
+  font-weight: 400;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col .section_ourMenu_row_col_imgBox {
+  position: relative;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col .section_ourMenu_row_col_imgBox .section_ourMenu_row_col_imgBox_img {
+  width: 223px;
+  height: 231px;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col .section_ourMenu_row_col_imgBox .section_ourMenu_row_col_imgBox_img img {
+  width: 100%;
+  border-radius: 50%;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col .section_ourMenu_row_col_imgBox .section_ourMenu_row_col_imgBox_text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  background-color: #D67E34;
+  font-family: "Cookie";
+  font-size: 30px;
+  line-height: 33.27px;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col h1 {
+  margin-top: 22px;
+  font-family: "Tinos";
+  font-size: 26px;
+  line-height: 29.9px;
+  font-weight: 400;
+  color: #000;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col p {
+  margin-top: 17px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 21.79px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col button {
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #D67E34;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 21.79px;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #D67E34;
+  padding: 14px 0;
+  cursor: pointer;
+  transition: all 0.4s;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col button:hover {
+  background-color: #fff;
+  color: #D67E34;
 }/*# sourceMappingURL=style.css.map */
