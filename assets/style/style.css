@@ -10,6 +10,7 @@
   width: 100%;
   max-width: 1440px;
   margin: auto;
+  border: 3px solid red;
 }
 .container .main_section {
   width: 100%;
@@ -134,13 +135,32 @@
   background-color: #fff;
   color: #FF7400;
 }
+.container .main_section header .header_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.container .main_section header .header_menu .header_menu_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30.88px;
+  height: 17.75px;
+}
 .container .main_section .main_section_image {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 800px;
   z-index: -1;
+}
+.container .main_section .main_section_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container .main_section .hero_section {
   width: 100%;
@@ -591,4 +611,231 @@
 .container .section_ourMenu .section_ourMenu_row .section_ourMenu_row_col button:hover {
   background-color: #fff;
   color: #D67E34;
+}
+.container .section_testimonial {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  background-color: #E5E5E5;
+  padding: 104px 0;
+}
+.container .section_testimonial p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.24px;
+  color: #000;
+  max-width: 920px;
+  text-align: center;
+  margin: auto;
+  font-style: italic;
+}
+.container .section_testimonial .section_testimonial_img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+}
+.container .section_testimonial .section_testimonial_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.container .section_testimonial h3 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 27.24px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 16px;
+  text-align: center;
+}
+.container .section_testimonial h5 {
+  margin-top: 9px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.container .section_testimonial .section_testimonial_dots {
+  width: 100%;
+  max-width: 21px;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+.container .section_testimonial .section_testimonial_dots .section_testimonial_dots_item {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+.container .section_testimonial .section_testimonial_dots .section_testimonial_dots_item:last-of-type {
+  width: 7px;
+  height: 7px;
+  border: 1px solid #FF7400;
+  background-color: transparent;
+}
+.container .section_foodImg {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 101px;
+}
+.container .section_foodImg h1 {
+  text-align: center;
+  font-family: "Tinos";
+  font-size: 54px;
+  line-height: 62.9px;
+  font-weight: 400;
+  color: #000;
+}
+.container .section_foodImg h1 span {
+  color: #D67E34;
+}
+.container .section_foodImg .section_foodImg_row {
+  width: 100%;
+  max-width: 1110px;
+  margin: auto;
+  margin-top: 60px;
+  display: grid;
+  gap: 30px;
+  grid-template-areas: "item1 item1 item2 item3" "item4 item5 item6 item6";
+}
+.container .section_foodImg .section_foodImg_row .section_foodImg_row_col img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .section_foodImg .section_foodImg_row .section_foodImg_row_col:nth-of-type(1) {
+  grid-area: item1;
+}
+.container .section_foodImg .section_foodImg_row .section_foodImg_row_col:nth-of-type(2) {
+  grid-area: item2;
+}
+.container .section_foodImg .section_foodImg_row .section_foodImg_row_col:nth-of-type(3) {
+  grid-area: item3;
+}
+.container .section_foodImg .section_foodImg_row .section_foodImg_row_col:nth-of-type(4) {
+  grid-area: item4;
+}
+.container .section_foodImg .section_foodImg_row .section_foodImg_row_col:nth-of-type(5) {
+  grid-area: item5;
+}
+.container .section_foodImg .section_foodImg_row .section_foodImg_row_col:nth-of-type(6) {
+  grid-area: item6;
+}
+.container .section_chefs {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 100px;
+}
+.container .section_chefs h1 {
+  text-align: center;
+  font-family: "Tinos";
+  font-size: 54px;
+  line-height: 62.9px;
+  font-weight: 400;
+  color: #000;
+}
+.container .section_chefs h1 span {
+  color: #D67E34;
+}
+.container .section_chefs .section_chefs_row {
+  width: 100%;
+  max-width: 1110px;
+  margin: auto;
+  margin-top: 107px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.container .section_chefs .section_chefs_row .section_chefs_row_col {
+  width: 350px;
+  height: 462px;
+}
+.container .section_chefs .section_chefs_row .section_chefs_row_col img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .section_footer {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 100px;
+}
+.container .section_footer img {
+  width: 100%;
+}
+@media screen and (max-width: 1110px) {
+  .container .main_section {
+    padding: 0 15px;
+    padding-top: 50px;
+  }
+  .container .section_category {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 1072px) {
+  .container .section_category .section_category_item {
+    height: auto;
+    min-height: 328px;
+    padding: 33.35px 13px 16px;
+  }
+  .container .section_category .section_category_item p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .container .main_section {
+    padding-top: 26px;
+  }
+  .container .main_section header .header_menu {
+    display: flex;
+  }
+  .container .main_section header nav {
+    display: none;
+  }
+  .container .section_category {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 764px) {
+  .container .main_section header .header_logo {
+    width: 45px;
+    height: 31px;
+  }
+  .container .main_section .hero_section .hero_section_text {
+    margin: auto;
+  }
+  .container .section_category {
+    justify-content: center;
+  }
+  .container .section_category .section_category_item {
+    max-width: 500px;
+    min-height: 276px;
+  }
+}
+@media screen and (max-width: 515px) {
+  .container .main_section .hero_section .hero_section_text h2 {
+    font-size: 30px;
+    line-height: 34.5px;
+  }
+  .container .main_section .hero_section .hero_section_text h1 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .container .main_section .hero_section .hero_section_text h5 {
+    font-size: 15px;
+    line-height: 20.43px;
+  }
 }/*# sourceMappingURL=style.css.map */
