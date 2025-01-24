@@ -148,7 +148,7 @@
   height: 17.75px;
 }
 .container .main_section header .header_menu .header_menu_icon:hover + .header_menu_content {
-  opacity: 1;
+  display: flex;
 }
 .container .main_section header .header_menu .header_menu_content {
   position: fixed;
@@ -163,7 +163,7 @@
   flex-direction: column;
   justify-content: center;
   transition: all 0.4s;
-  opacity: 0;
+  display: none;
 }
 .container .main_section header .header_menu .header_menu_content .header_nav_menu {
   width: 100%;

@@ -176,7 +176,7 @@ $color_white: #fff;
                     height: 17.75px;
 
                     &:hover+.header_menu_content {
-                        opacity: 1;
+                        display: flex;
                     }
                 }
 
@@ -193,7 +193,7 @@ $color_white: #fff;
                     flex-direction: column;
                     justify-content: center;
                     transition: all 0.4s;
-                    opacity: 0;
+                    display: none;
 
                     .header_nav_menu {
                         width: 100%;
